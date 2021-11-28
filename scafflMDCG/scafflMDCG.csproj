@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GlobEstadoCivil.cs" />
+    <Compile Remove="GlobGenero.cs" />
+    <Compile Remove="GlobGradoAcademico.cs" />
+    <Compile Remove="GlobMisionesExterior.cs" />
+    <Compile Remove="GlobPai.cs" />
+    <Compile Remove="GlobTipoFuncionario.cs" />
+    <Compile Remove="GlobTipoPasaporte.cs" />
+    <Compile Remove="GlobTratamiento.cs" />
+    <Compile Remove="MdcgAcreditacione.cs" />
+    <Compile Remove="MdcgAdjuntoAcreditacione.cs" />
+    <Compile Remove="MdcgBitacora.cs" />
+    <Compile Remove="MdcgCargo.cs" />
+    <Compile Remove="MdcgDependiente.cs" />
+    <Compile Remove="MdcgEstadosAcreditacion.cs" />
+    <Compile Remove="MdcgFirmante.cs" />
+    <Compile Remove="MdcgFormatoBc.cs" />
+    <Compile Remove="MdcgFuncionario.cs" />
+    <Compile Remove="MdcgParametro.cs" />
+    <Compile Remove="MdcgTipoAcreditacion.cs" />
+    <Compile Remove="MdcgTipoGestion.cs" />
+    <Compile Remove="MDCG_DBContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

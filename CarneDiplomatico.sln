@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Interface", "1. Interface", "{8A1479B2-635E-4034-8A67-C66EFFC5FE76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Core", "2. Core", "{C83E261C-CA08-41C0-82FD-A7FA0E837785}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infraestructure", "3. Infraestructure", "{950C8A06-BE56-49D9-9D07-3DBB67626DF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Cross-Cutting", "4. Cross-Cutting", "{3E40ACAE-C37E-45C0-AB92-F98833C62E71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceApi", "InterfaceApi\InterfaceApi.csproj", "{31DE4624-4B2A-41BA-BF69-54D33C7B8BC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.ServiceApp", "Core.ServiceApp\Core.ServiceApp.csproj", "{0550E942-D518-416E-B6E2-1A6297CE0E07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{DC2C11CF-2509-4799-A8AA-A6AC359E27FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cross-Cutting", "Cross-Cutting\Cross-Cutting.csproj", "{C6E5DA1F-F6C2-4CC1-B0D6-3184C12CD65A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scafflMDCG", "scafflMDCG\scafflMDCG.csproj", "{5229F847-23A1-46A3-873F-474288B68157}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31DE4624-4B2A-41BA-BF69-54D33C7B8BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DE4624-4B2A-41BA-BF69-54D33C7B8BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DE4624-4B2A-41BA-BF69-54D33C7B8BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DE4624-4B2A-41BA-BF69-54D33C7B8BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0550E942-D518-416E-B6E2-1A6297CE0E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0550E942-D518-416E-B6E2-1A6297CE0E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0550E942-D518-416E-B6E2-1A6297CE0E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0550E942-D518-416E-B6E2-1A6297CE0E07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC2C11CF-2509-4799-A8AA-A6AC359E27FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC2C11CF-2509-4799-A8AA-A6AC359E27FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC2C11CF-2509-4799-A8AA-A6AC359E27FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC2C11CF-2509-4799-A8AA-A6AC359E27FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E5DA1F-F6C2-4CC1-B0D6-3184C12CD65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E5DA1F-F6C2-4CC1-B0D6-3184C12CD65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E5DA1F-F6C2-4CC1-B0D6-3184C12CD65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E5DA1F-F6C2-4CC1-B0D6-3184C12CD65A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5229F847-23A1-46A3-873F-474288B68157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5229F847-23A1-46A3-873F-474288B68157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5229F847-23A1-46A3-873F-474288B68157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5229F847-23A1-46A3-873F-474288B68157}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31DE4624-4B2A-41BA-BF69-54D33C7B8BC2} = {8A1479B2-635E-4034-8A67-C66EFFC5FE76}
+		{0550E942-D518-416E-B6E2-1A6297CE0E07} = {C83E261C-CA08-41C0-82FD-A7FA0E837785}
+		{DC2C11CF-2509-4799-A8AA-A6AC359E27FA} = {950C8A06-BE56-49D9-9D07-3DBB67626DF4}
+		{C6E5DA1F-F6C2-4CC1-B0D6-3184C12CD65A} = {3E40ACAE-C37E-45C0-AB92-F98833C62E71}
+		{5229F847-23A1-46A3-873F-474288B68157} = {950C8A06-BE56-49D9-9D07-3DBB67626DF4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A087478-AFC7-4C2B-9FB8-D7375FD77282}
+	EndGlobalSection
+EndGlobal
